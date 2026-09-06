@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <header>
+    <resultCode>00</resultCode>
+    <resultMsg>NORMAL SERVICE.</resultMsg>
+  </header>
+  <body>
+    <numOfRows>9</numOfRows>
+    <pageNo>1</pageNo>
+    <totalCount>9</totalCount>
+    <items>
+      <item><itemCode>TFR</itemCode><regionName>서울특별시</regionName><year>2025</year><value>0.61</value><unit>명</unit></item>
+      <item><itemCode>TFR</itemCode><regionName>서울특별시</regionName><year>2024</year><value>0.58</value><unit>명</unit></item>
+      <item><itemCode>TFR</itemCode><regionName>서울특별시</regionName><year>2023</year><value>0.55</value><unit>명</unit></item>
+      <item><itemCode>TFR</itemCode><regionName>세종특별자치시</regionName><year>2025</year><value>1.03</value><unit>명</unit></item>
+      <item><itemCode>TFR</itemCode><regionName>세종특별자치시</regionName><year>2024</year><value></value><unit>명</unit></item>
+      <item><itemCode>TFR</itemCode><regionName>세종특별자치시</regionName><year>2023</year><value>0.97</value><unit>명</unit></item>
+      <item><itemCode>TFR</itemCode><regionName>전라남도</regionName><year>2025</year><value>0.97</value><unit>명</unit></item>
+      <item><itemCode>TFR</itemCode><regionName>전라남도</regionName><year>2024</year><value>1.03</value><unit>명</unit></item>
+      <item><itemCode>TFR</itemCode><regionName>전라남도</regionName><year>2023</year><value/><unit>명</unit></item>
+    </items>
+  </body>
+</response>

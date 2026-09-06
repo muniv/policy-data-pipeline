@@ -1,0 +1,5 @@
+pyyaml>=6
+requests>=2.31
+openpyxl>=3.1
+beautifulsoup4>=4.12
+pandas>=2.0

@@ -1,0 +1,11 @@
+# 산출물과 원본 스냅샷은 저장소에 넣지 않습니다 (raw/sample 만 예외)
+out/
+logs/
+raw/*
+!raw/sample/
+!raw/sample/**
+__pycache__/
+*.pyc
+.env
+.venv/
+.DS_Store

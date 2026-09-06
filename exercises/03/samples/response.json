@@ -1,0 +1,10 @@
+[{"page":1,"pages":1,"per_page":50,"total":9,"lastupdated":"2026-07-01"},
+ [{"indicator":{"id":"SP.DYN.TFRT.IN","value":"Fertility rate, total"},"country":{"id":"KR","value":"Korea, Rep."},"countryiso3code":"KOR","date":"2025","value":0.799,"unit":"","obs_status":"","decimal":3},
+  {"indicator":{"id":"SP.DYN.TFRT.IN","value":"Fertility rate, total"},"country":{"id":"KR","value":"Korea, Rep."},"countryiso3code":"KOR","date":"2024","value":0.75,"unit":"","obs_status":"","decimal":2},
+  {"indicator":{"id":"SP.DYN.TFRT.IN","value":"Fertility rate, total"},"country":{"id":"KR","value":"Korea, Rep."},"countryiso3code":"KOR","date":"2023","value":0.72,"unit":"","obs_status":"","decimal":2},
+  {"indicator":{"id":"SP.DYN.TFRT.IN","value":"Fertility rate, total"},"country":{"id":"JP","value":"Japan"},"countryiso3code":"JPN","date":"2025","value":null,"unit":"","obs_status":"","decimal":2},
+  {"indicator":{"id":"SP.DYN.TFRT.IN","value":"Fertility rate, total"},"country":{"id":"JP","value":"Japan"},"countryiso3code":"JPN","date":"2024","value":1.20,"unit":"","obs_status":"","decimal":2},
+  {"indicator":{"id":"SP.DYN.TFRT.IN","value":"Fertility rate, total"},"country":{"id":"JP","value":"Japan"},"countryiso3code":"JPN","date":"2023","value":1.20,"unit":"","obs_status":"","decimal":2},
+  {"indicator":{"id":"SP.DYN.TFRT.IN","value":"Fertility rate, total"},"country":{"id":"FR","value":"France"},"countryiso3code":"FRA","date":"2025","value":null,"unit":"","obs_status":"","decimal":2},
+  {"indicator":{"id":"SP.DYN.TFRT.IN","value":"Fertility rate, total"},"country":{"id":"FR","value":"France"},"countryiso3code":"FRA","date":"2024","value":1.62,"unit":"","obs_status":"","decimal":2},
+  {"indicator":{"id":"SP.DYN.TFRT.IN","value":"Fertility rate, total"},"country":{"id":"FR","value":"France"},"countryiso3code":"FRA","date":"2023","value":1.66,"unit":"","obs_status":"","decimal":2}]]

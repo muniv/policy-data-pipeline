@@ -1,0 +1,1243 @@
+[
+ {
+  "page": 1,
+  "pages": 1,
+  "per_page": 500,
+  "total": 77,
+  "lastupdated": "2026-07-01"
+ },
+ [
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "KO",
+    "value": "KOR"
+   },
+   "countryiso3code": "KOR",
+   "date": "2015",
+   "value": 1.24,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "KO",
+    "value": "KOR"
+   },
+   "countryiso3code": "KOR",
+   "date": "2016",
+   "value": 1.17,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "KO",
+    "value": "KOR"
+   },
+   "countryiso3code": "KOR",
+   "date": "2017",
+   "value": 1.05,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "KO",
+    "value": "KOR"
+   },
+   "countryiso3code": "KOR",
+   "date": "2018",
+   "value": 0.98,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "KO",
+    "value": "KOR"
+   },
+   "countryiso3code": "KOR",
+   "date": "2019",
+   "value": 0.92,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "KO",
+    "value": "KOR"
+   },
+   "countryiso3code": "KOR",
+   "date": "2020",
+   "value": 0.84,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "KO",
+    "value": "KOR"
+   },
+   "countryiso3code": "KOR",
+   "date": "2021",
+   "value": 0.81,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "KO",
+    "value": "KOR"
+   },
+   "countryiso3code": "KOR",
+   "date": "2022",
+   "value": 0.78,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "KO",
+    "value": "KOR"
+   },
+   "countryiso3code": "KOR",
+   "date": "2023",
+   "value": 0.72,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "KO",
+    "value": "KOR"
+   },
+   "countryiso3code": "KOR",
+   "date": "2024",
+   "value": 0.75,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "KO",
+    "value": "KOR"
+   },
+   "countryiso3code": "KOR",
+   "date": "2025",
+   "value": 0.799,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "JP",
+    "value": "JPN"
+   },
+   "countryiso3code": "JPN",
+   "date": "2015",
+   "value": 1.45,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "JP",
+    "value": "JPN"
+   },
+   "countryiso3code": "JPN",
+   "date": "2016",
+   "value": 1.43,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "JP",
+    "value": "JPN"
+   },
+   "countryiso3code": "JPN",
+   "date": "2017",
+   "value": 1.4,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "JP",
+    "value": "JPN"
+   },
+   "countryiso3code": "JPN",
+   "date": "2018",
+   "value": 1.38,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "JP",
+    "value": "JPN"
+   },
+   "countryiso3code": "JPN",
+   "date": "2019",
+   "value": 1.35,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "JP",
+    "value": "JPN"
+   },
+   "countryiso3code": "JPN",
+   "date": "2020",
+   "value": 1.32,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "JP",
+    "value": "JPN"
+   },
+   "countryiso3code": "JPN",
+   "date": "2021",
+   "value": 1.3,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "JP",
+    "value": "JPN"
+   },
+   "countryiso3code": "JPN",
+   "date": "2022",
+   "value": 1.27,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "JP",
+    "value": "JPN"
+   },
+   "countryiso3code": "JPN",
+   "date": "2023",
+   "value": 1.25,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "JP",
+    "value": "JPN"
+   },
+   "countryiso3code": "JPN",
+   "date": "2024",
+   "value": 1.22,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "JP",
+    "value": "JPN"
+   },
+   "countryiso3code": "JPN",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "FRA"
+   },
+   "countryiso3code": "FRA",
+   "date": "2015",
+   "value": 1.96,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "FRA"
+   },
+   "countryiso3code": "FRA",
+   "date": "2016",
+   "value": 1.93,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "FRA"
+   },
+   "countryiso3code": "FRA",
+   "date": "2017",
+   "value": 1.89,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "FRA"
+   },
+   "countryiso3code": "FRA",
+   "date": "2018",
+   "value": 1.86,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "FRA"
+   },
+   "countryiso3code": "FRA",
+   "date": "2019",
+   "value": 1.82,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "FRA"
+   },
+   "countryiso3code": "FRA",
+   "date": "2020",
+   "value": 1.79,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "FRA"
+   },
+   "countryiso3code": "FRA",
+   "date": "2021",
+   "value": 1.76,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "FRA"
+   },
+   "countryiso3code": "FRA",
+   "date": "2022",
+   "value": 1.72,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "FRA"
+   },
+   "countryiso3code": "FRA",
+   "date": "2023",
+   "value": 1.69,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "FRA"
+   },
+   "countryiso3code": "FRA",
+   "date": "2024",
+   "value": 1.65,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "FR",
+    "value": "FRA"
+   },
+   "countryiso3code": "FRA",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "DEU"
+   },
+   "countryiso3code": "DEU",
+   "date": "2015",
+   "value": 1.5,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "DEU"
+   },
+   "countryiso3code": "DEU",
+   "date": "2016",
+   "value": 1.49,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "DEU"
+   },
+   "countryiso3code": "DEU",
+   "date": "2017",
+   "value": 1.47,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "DEU"
+   },
+   "countryiso3code": "DEU",
+   "date": "2018",
+   "value": 1.46,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "DEU"
+   },
+   "countryiso3code": "DEU",
+   "date": "2019",
+   "value": 1.44,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "DEU"
+   },
+   "countryiso3code": "DEU",
+   "date": "2020",
+   "value": 1.43,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "DEU"
+   },
+   "countryiso3code": "DEU",
+   "date": "2021",
+   "value": 1.41,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "DEU"
+   },
+   "countryiso3code": "DEU",
+   "date": "2022",
+   "value": 1.4,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "DEU"
+   },
+   "countryiso3code": "DEU",
+   "date": "2023",
+   "value": 1.38,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "DEU"
+   },
+   "countryiso3code": "DEU",
+   "date": "2024",
+   "value": 1.36,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "DE",
+    "value": "DEU"
+   },
+   "countryiso3code": "DEU",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "ITA"
+   },
+   "countryiso3code": "ITA",
+   "date": "2015",
+   "value": 1.35,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "ITA"
+   },
+   "countryiso3code": "ITA",
+   "date": "2016",
+   "value": 1.34,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "ITA"
+   },
+   "countryiso3code": "ITA",
+   "date": "2017",
+   "value": 1.32,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "ITA"
+   },
+   "countryiso3code": "ITA",
+   "date": "2018",
+   "value": 1.31,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "ITA"
+   },
+   "countryiso3code": "ITA",
+   "date": "2019",
+   "value": 1.29,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "ITA"
+   },
+   "countryiso3code": "ITA",
+   "date": "2020",
+   "value": 1.28,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "ITA"
+   },
+   "countryiso3code": "ITA",
+   "date": "2021",
+   "value": 1.26,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "ITA"
+   },
+   "countryiso3code": "ITA",
+   "date": "2022",
+   "value": 1.25,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "ITA"
+   },
+   "countryiso3code": "ITA",
+   "date": "2023",
+   "value": 1.23,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "ITA"
+   },
+   "countryiso3code": "ITA",
+   "date": "2024",
+   "value": 1.22,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "IT",
+    "value": "ITA"
+   },
+   "countryiso3code": "ITA",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "ESP"
+   },
+   "countryiso3code": "ESP",
+   "date": "2015",
+   "value": 1.33,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "ESP"
+   },
+   "countryiso3code": "ESP",
+   "date": "2016",
+   "value": 1.32,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "ESP"
+   },
+   "countryiso3code": "ESP",
+   "date": "2017",
+   "value": 1.3,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "ESP"
+   },
+   "countryiso3code": "ESP",
+   "date": "2018",
+   "value": 1.29,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "ESP"
+   },
+   "countryiso3code": "ESP",
+   "date": "2019",
+   "value": 1.27,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "ESP"
+   },
+   "countryiso3code": "ESP",
+   "date": "2020",
+   "value": 1.26,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "ESP"
+   },
+   "countryiso3code": "ESP",
+   "date": "2021",
+   "value": 1.25,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "ESP"
+   },
+   "countryiso3code": "ESP",
+   "date": "2022",
+   "value": 1.23,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "ESP"
+   },
+   "countryiso3code": "ESP",
+   "date": "2023",
+   "value": 1.22,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "ESP"
+   },
+   "countryiso3code": "ESP",
+   "date": "2024",
+   "value": 1.2,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "ES",
+    "value": "ESP"
+   },
+   "countryiso3code": "ESP",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "US",
+    "value": "USA"
+   },
+   "countryiso3code": "USA",
+   "date": "2015",
+   "value": 1.84,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "US",
+    "value": "USA"
+   },
+   "countryiso3code": "USA",
+   "date": "2016",
+   "value": 1.82,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "US",
+    "value": "USA"
+   },
+   "countryiso3code": "USA",
+   "date": "2017",
+   "value": 1.8,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "US",
+    "value": "USA"
+   },
+   "countryiso3code": "USA",
+   "date": "2018",
+   "value": 1.77,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "US",
+    "value": "USA"
+   },
+   "countryiso3code": "USA",
+   "date": "2019",
+   "value": 1.75,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "US",
+    "value": "USA"
+   },
+   "countryiso3code": "USA",
+   "date": "2020",
+   "value": 1.73,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "US",
+    "value": "USA"
+   },
+   "countryiso3code": "USA",
+   "date": "2021",
+   "value": 1.71,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "US",
+    "value": "USA"
+   },
+   "countryiso3code": "USA",
+   "date": "2022",
+   "value": 1.69,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "US",
+    "value": "USA"
+   },
+   "countryiso3code": "USA",
+   "date": "2023",
+   "value": 1.66,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "US",
+    "value": "USA"
+   },
+   "countryiso3code": "USA",
+   "date": "2024",
+   "value": 1.64,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "SP.DYN.TFRT.IN",
+    "value": "Fertility rate, total"
+   },
+   "country": {
+    "id": "US",
+    "value": "USA"
+   },
+   "countryiso3code": "USA",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  }
+ ]
+]

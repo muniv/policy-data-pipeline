@@ -1,0 +1,43 @@
+# 수집 대상 정의. 새 지표를 추가할 때 이 파일만 고칩니다.
+project: 인구 지표 패널
+timezone: Asia/Seoul
+
+sources:
+  - id: kosis_tfr
+    name: KOSIS 인구동향조사 — 합계출산율
+    kind: api
+    indicator_code: TFR
+    unit: 명
+    vintage: 확정
+    region_level: 시도
+    endpoint: https://kosis.kr/openapi/Param/statisticsParameterData.do
+    auth: { required: true, param: apiKey, env: KOSIS_API_KEY }
+    params: { orgId: "101", tblId: DT_1B81A17, prdSe: Y, startPrdDe: "2015", endPrdDe: "2025" }
+    sample: raw/sample/kosis_tfr.json
+
+  - id: wb_tfr
+    name: World Bank — Fertility rate, total
+    kind: api
+    indicator_code: SP.DYN.TFRT.IN
+    unit: 명
+    vintage: 연간
+    region_level: 국가
+    endpoint: https://api.worldbank.org/v2/country/{country}/indicator/{indicator}
+    auth: { required: false }
+    params: { country: "KOR;JPN;FRA;DEU;ITA;ESP;USA", indicator: SP.DYN.TFRT.IN, date: "2015:2025", per_page: 500, format: json }
+    sample: raw/sample/wb_tfr.json
+
+  - id: policy_brief
+    name: 정책브리핑 — 지자체 출산지원정책
+    kind: web
+    indicator_code: POLICY_COUNT
+    unit: 건
+    vintage: 확정
+    region_level: 시도
+    sample: raw/sample/policy_brief.json
+
+validation:
+  value_range: { TFR: [0, 3], SP.DYN.TFRT.IN: [0, 8], POLICY_COUNT: [0, 500] }
+  expected_regions_시도: 17
+  expected_years: [2015, 2025]
+  yoy_change_limit: 0.30

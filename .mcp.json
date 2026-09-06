@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "korean-stat": {
+      "command": "korean-stat-mcp",
+      "env": { "KOSIS_API_KEY": "${KOSIS_API_KEY}" }
+    }
+  }
+}
