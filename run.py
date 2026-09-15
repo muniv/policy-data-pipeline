@@ -21,6 +21,29 @@ import yaml
 BASE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, BASE)
 
+
+def load_env(path):
+    """.env 파일을 환경변수로 읽어들입니다.
+
+    이미 셸에 설정된 값은 덮어쓰지 않습니다. 셸이 .env 보다 우선입니다.
+    외부 패키지를 쓰지 않는 이유는, 인증키 하나 읽자고 의존성을 늘리면
+    망이 막힌 기관에서 설치가 또 하나 늘어나기 때문입니다.
+    """
+    if not os.path.exists(path):
+        return
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, _, value = line.partition("=")
+            key, value = key.strip(), value.strip().strip('"').strip("'")
+            if key and value and key not in os.environ:
+                os.environ[key] = value
+
+
+load_env(os.path.join(BASE, ".env"))
+
 from scripts import collect, normalize, report, validate  # noqa: E402
 
 

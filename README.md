@@ -20,7 +20,14 @@ python run.py --offline
 | `out/dashboard.html` | 단일 파일 대시보드. 서버 불필요 |
 | `out/tables/` | 보고서 부록용 표 (마크다운 + 엑셀). 출처·기준시점·단위 자동 표기 |
 
-실시간 수집은 KOSIS 인증키가 필요합니다.
+실시간 수집은 KOSIS 인증키가 필요합니다. `.env` 에 적거나 셸 환경변수로 설정합니다.
+
+```bash
+cp .env.example .env        # 파일을 열어 KOSIS_API_KEY= 뒤에 인증키를 붙여넣습니다
+python run.py
+```
+
+셸 환경변수로 하셔도 됩니다. 셸 값이 `.env` 보다 우선합니다.
 
 ```bash
 export KOSIS_API_KEY="발급받은_인증키"     # Windows PowerShell: $env:KOSIS_API_KEY="..."
