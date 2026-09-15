@@ -100,6 +100,16 @@ def _verify_not_silent(sid, payload):
     if payload is None:
         raise CollectError(f"[{sid}] 응답이 비어 있습니다")
 
+    # 이 파이프라인의 소스는 전부 배열을 돌려줍니다. 객체 하나가 왔다면
+    # 대개 에러 응답입니다. 여기서 막지 않으면 정규화까지 흘러가
+    # 엉뚱한 자리에서 터집니다(조용한 실패).
+    if isinstance(payload, dict):
+        detail = ", ".join(f"{k}={v!r}" for k, v in list(payload.items())[:6])
+        raise CollectError(
+            f"[{sid}] 배열이 와야 하는데 객체가 왔습니다. 대개 에러 응답입니다.\n"
+            f"    응답: {detail[:400]}"
+        )
+
     if isinstance(payload, list) and len(payload) == 2 and isinstance(payload[0], dict) \
             and "total" in payload[0]:
         meta, rows = payload
