@@ -4,7 +4,7 @@ timezone: Asia/Seoul
 
 sources:
   - id: kosis_tfr
-    name: KOSIS 인구동향조사 — 합계출산율
+    name: KOSIS 인구동향조사 — 시도/합계출산율
     kind: api
     indicator_code: TFR
     unit: 명
@@ -12,7 +12,7 @@ sources:
     region_level: 시도
     endpoint: https://kosis.kr/openapi/Param/statisticsParameterData.do
     auth: { required: true, param: apiKey, env: KOSIS_API_KEY }
-    params: { method: getList, orgId: "101", tblId: DT_1B81A17, itmId: T10, objL1: ALL,
+    params: { method: getList, orgId: "101", tblId: DT_1B81A21, itmId: T1, objL1: ALL,
               prdSe: Y, startPrdDe: "2015", endPrdDe: "2025", format: json, jsonVD: "Y" }
     sample: raw/sample/kosis_tfr.json
 
