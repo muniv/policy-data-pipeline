@@ -7,7 +7,7 @@ LLM 에이전트와 파이썬으로 정책연구 데이터를 **주기적으로 
 ## 바로 실행
 
 ```bash
-pip install pyyaml requests openpyxl
+pip install -r requirements.txt
 python run.py --offline
 ```
 

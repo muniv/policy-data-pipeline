@@ -1,0 +1,23 @@
+# 4교시 · 지표 추가 완성본 — config/sources.yml 에 더할 두 조각.
+# 에이전트 출력이 이상할 때 이 파일과 대조합니다.
+
+# ── 1) sources: 목록에 추가 ────────────────────────────────
+#  id 가 "kosis" 로 시작하므로 scripts/normalize.py 의 from_kosis 가
+#  그대로 처리합니다. 변환 함수를 새로 쓸 필요가 없습니다.
+  - id: kosis_births
+    name: KOSIS 인구동향조사 — 출생아수
+    kind: api
+    indicator_code: BIRTHS
+    unit: 명
+    vintage: 확정
+    region_level: 시도
+    endpoint: https://kosis.kr/openapi/Param/statisticsParameterData.do
+    auth: { required: true, param: apiKey, env: KOSIS_API_KEY }
+    params: { orgId: "101", tblId: DT_1B81A01, prdSe: Y, startPrdDe: "2015", endPrdDe: "2025" }
+    sample: raw/sample/kosis_births.json
+
+# ── 2) validation.value_range 에 허용 범위 등록 ──────────────
+#  이 줄을 빠뜨려도 파이프라인은 통과합니다. 범위가 없는 지표는
+#  검사를 건너뛰기 때문입니다. "조용히 넘어가는" 자리라 직접 짚어줍니다.
+#
+#  value_range: { TFR: [0, 3], BIRTHS: [0, 500000], SP.DYN.TFRT.IN: [0, 8], POLICY_COUNT: [0, 500] }

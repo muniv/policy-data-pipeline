@@ -7,7 +7,7 @@
 터미널에서 순서대로:
 
 ```bash
-pip install pyyaml requests
+pip install -r requirements.txt
 python run.py --offline
 ```
 
