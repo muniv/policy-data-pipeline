@@ -30,7 +30,12 @@ def _snapshot(base, run_date, source_id, payload):
 
 
 def _request(url, params, timeout=30):
-    """재시도와 백오프. 횟수를 제한해 무한 반복을 막습니다."""
+    """재시도와 백오프. 횟수를 제한해 무한 반복을 막습니다.
+
+    응답이 JSON이 아니면 재시도하지 않습니다. 일시적 장애가 아니라 요청이
+    잘못된 경우이기 때문입니다. 기관 API는 이럴 때 200과 함께 에러 객체를
+    돌려주는 일이 많아, 원문 앞부분을 그대로 보여줍니다.
+    """
     import requests
 
     last = None
@@ -40,7 +45,17 @@ def _request(url, params, timeout=30):
             if r.status_code == 429:
                 raise CollectError("호출 제한(429)")
             r.raise_for_status()
-            return r.json()
+            try:
+                return r.json()
+            except ValueError:
+                body = (r.text or "").strip().replace("\n", " ")[:300]
+                raise CollectError(
+                    "응답 본문이 JSON이 아닙니다. 파라미터나 인증키를 확인하세요.\n"
+                    f"    요청: {r.url.split('?')[0]}\n"
+                    f"    본문: {body}"
+                ) from None
+        except CollectError:
+            raise
         except Exception as e:  # noqa: BLE001
             last = e
             if attempt < RETRY - 1:

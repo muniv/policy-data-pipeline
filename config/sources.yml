@@ -12,7 +12,8 @@ sources:
     region_level: 시도
     endpoint: https://kosis.kr/openapi/Param/statisticsParameterData.do
     auth: { required: true, param: apiKey, env: KOSIS_API_KEY }
-    params: { orgId: "101", tblId: DT_1B81A17, prdSe: Y, startPrdDe: "2015", endPrdDe: "2025" }
+    params: { method: getList, orgId: "101", tblId: DT_1B81A17, itmId: T10, objL1: ALL,
+              prdSe: Y, startPrdDe: "2015", endPrdDe: "2025", format: json, jsonVD: "Y" }
     sample: raw/sample/kosis_tfr.json
 
   - id: wb_tfr

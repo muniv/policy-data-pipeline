@@ -26,11 +26,12 @@
 
 - 엔드포인트: `https://kosis.kr/openapi/Param/statisticsParameterData.do`
 - 인증: 필요. `apiKey` 파라미터. 환경변수 `KOSIS_API_KEY`
-- 주요 파라미터: `orgId`, `tblId`, `itmId`, `objL1`, `prdSe`(Y/Q/M), `startPrdDe`, `endPrdDe`, `format=json`
+- 필수 파라미터: `method=getList`, `apiKey`, `orgId`, `tblId`, `itmId`, `objL1`, `prdSe`(Y/Q/M), `startPrdDe`, `endPrdDe`, `format=json`, `jsonVD=Y`
+- **`method` · `itmId` · `objL1` · `format` · `jsonVD` 중 하나라도 빠지면** 200과 함께 에러 객체가 옵니다. 표준 JSON이 아니라 파싱에서 터집니다
 - 응답: 평평한 객체 배열. 지역은 `C1_NM`, 기간은 `PRD_DE`, 값은 `DT`(문자열)
 - 결측: `DT`가 빈 문자열
 - 호출 제한: 발급 등급에 따라 다름. 발급 화면에서 확인 후 여기에 기록할 것
-- 최종 확인: (교안 확정 전 실제 호출로 검증 필요)
+- 최종 확인: 2026-09-16 파라미터 보정 (실시간 호출 1건으로 재검증 필요)
 
 **주의** — `DT`가 문자열로 옵니다. `float()` 변환 전에 빈 문자열을 걸러야 합니다.
 
